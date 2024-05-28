@@ -1,8 +1,53 @@
-# React + Vite
+# Random Quote Machine
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a random quote machine built using React and Vite. It fetches random quotes from an API and displays them to the user. Users can also tweet the current quote.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- Displays a random quote on page load
+- Fetches a new quote when the "New Quote" button is clicked
+- Allows users to tweet the current quote
+- Responsive and visually appealing design
+
+## Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/Kingkhansk/random-quote.git
+    cd random-quote
+    ```
+
+2. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+3. Run the development server:
+
+    ```bash
+    npm run dev
+    ```
+
+## Usage
+
+- On loading the app, a random quote is displayed.
+- Click the "New Quote" button to fetch a new quote.
+- Click the "Tweet" button to tweet the current quote.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any changes.
+
+## License
+
+This project is licensed under the MIT License.
