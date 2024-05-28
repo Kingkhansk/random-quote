@@ -24,7 +24,7 @@ const QuoteMachine = () => {
 
   return (
     <div id="quote-box">
-      <p id="text">{quote ? quote : 'Loading...'}</p>
+      <p id="text">{!quote ? 'Loading...' : quote}</p>
       <p id="author">- {author}</p>
       <button id="new-quote" onClick={fetchQuote}>New Quote</button>
       <a 
