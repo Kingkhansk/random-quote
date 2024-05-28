@@ -1,0 +1,61 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/* src/App.css */
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: #f5f5f5; */
+  font-family: 'Arial', sans-serif;
+}
+
+/* src/QuoteMachine.css */
+#quote-box {
+  background: #1a1a22;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+#text {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+#author {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+#new-quote {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+#tweet-quote {
+  background: #1da1f2;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
